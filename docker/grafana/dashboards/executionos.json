@@ -1,0 +1,13 @@
+{
+  "title": "ExecutionOS",
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Backend health",
+      "targets": [{ "expr": "up{job=\"executionos-backend\"}" }],
+      "gridPos": { "x": 0, "y": 0, "w": 8, "h": 4 }
+    }
+  ],
+  "schemaVersion": 39,
+  "version": 1
+}

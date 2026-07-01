@@ -1,0 +1,14 @@
+server:
+  forward-headers-strategy: framework
+spring:
+  jpa:
+    show-sql: false
+springdoc:
+  swagger-ui:
+    enabled: false
+  api-docs:
+    enabled: false
+logging:
+  level:
+    root: INFO
+    com.executionos: INFO
