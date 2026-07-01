@@ -1,0 +1,3 @@
+ALTER TABLE sf_assessment_questions
+ADD COLUMN IF NOT EXISTS updated_at
+TIMESTAPTZ NOT NULL DEFAULT NOW();
